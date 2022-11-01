@@ -1,7 +1,7 @@
 let parent;
 
 const observer = new MutationObserver(function (mutations, mutationInstance) {
-    let element = document.querySelectorAll("[computed-object-fit=CONTAIN]");
+    let element = document.querySelectorAll("[overlay-style=SHORTS]");
     if (element) {
         OnlyLongs(element, parent);
     }
